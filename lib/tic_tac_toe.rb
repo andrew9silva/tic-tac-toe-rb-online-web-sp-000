@@ -81,7 +81,7 @@ def won?(board)
 end
 
 def full?(board)
-  if WIN_COMBINATIONS.any?{|combo| board[combo[0]] == " "}
+  if board[integer] == " "
     false
   else
     true
