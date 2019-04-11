@@ -81,7 +81,7 @@ def won?(board)
 end
 
 def full?(board)
-  if board[integer] == " "
+  if board[integer].any?{|integer| integer == " "}
     false
   else
     true
