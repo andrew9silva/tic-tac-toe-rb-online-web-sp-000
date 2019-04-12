@@ -81,7 +81,7 @@ def won?(board)
 end
 
 def full?(board)
-  if board[index].any?{|index| index == " "}
+  if board
     false
   else
     true
