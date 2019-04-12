@@ -82,7 +82,7 @@ end
 
 def full?(board)
   board.all?{|index| index == " "}
-  false
+  
 end
 
 def draw?(board)
