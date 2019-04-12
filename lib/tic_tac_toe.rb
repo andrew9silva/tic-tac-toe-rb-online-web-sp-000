@@ -81,7 +81,7 @@ def won?(board)
 end
 
 def full?(board)
-  if board
+  if board[].all?
     false
   else
     true
