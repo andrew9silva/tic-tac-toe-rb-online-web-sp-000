@@ -81,7 +81,11 @@ def won?(board)
 end
 
 def full?(board)
-  [].all?{|index| index == " "}
+  if board.include?(' ') || board.include?('')
+    return false
+else
+    return true
+  end
 end
 
 def draw?(board)
