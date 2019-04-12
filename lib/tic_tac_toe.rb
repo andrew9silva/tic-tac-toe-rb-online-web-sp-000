@@ -82,7 +82,7 @@ end
 
 def full?(board)
   board.all?{board == " "}
-  true
+  nil
 end
 
 def draw?(board)
