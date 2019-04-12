@@ -85,7 +85,10 @@ def full?(board)
     if index == " "
       false
     else
-      true
+      truedef full?(board)
+        board[].all?
+          false
+      end
   end
 end
 
