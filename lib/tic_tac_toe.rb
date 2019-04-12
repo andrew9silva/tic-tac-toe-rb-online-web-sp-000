@@ -81,7 +81,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.all?{|board| == " "}
+  board.all?{|board| board == " "}
   false
 end
 
