@@ -82,7 +82,6 @@ end
 
 def full?(board)
   board[].all?
-    false
 end
 
 def draw?(board)
