@@ -81,12 +81,7 @@ def won?(board)
 end
 
 def full?(board)
-  board[index].all? do
-    if index == " "
-      false
-    else
-      true
-  end
+  board[].all?{}
 end
 
 def draw?(board)
